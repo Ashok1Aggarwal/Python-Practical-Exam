@@ -14,7 +14,7 @@ def printing():
     print(t1[length:])
 def print_eve():
     another_tuple = []
-    for i in range(len(t1)+1):
+    for i in range(1,len(t1)+1):
         if i%2 == 0:
             another_tuple.append(i)
         else:
