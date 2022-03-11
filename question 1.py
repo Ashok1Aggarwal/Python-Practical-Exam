@@ -49,7 +49,7 @@ def findSum(num):
     return(ans)
 
 
-n = int(input("Enter the value of N -_- : "))
+n = int(input("Enter the value of N ___ : "))
 print("sum of first ", n, "even number is: ", even_sum(n))
 print("sum of first ", n, "odd number is: ", odd_sum(n))
 print(findSum(n))
